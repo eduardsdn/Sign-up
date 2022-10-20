@@ -3,15 +3,15 @@
     src: url("Norse-Bold.otf");;
 }
 
-
-
 html, body {
     display: flex;
     flex-direction: row;
     height: 100%;
     margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ------------------------------ Left panel  ------------------------------*/ 
 .left-panel {
     align-content: center;
     background-image: url("pictures/photo-1585202900225-6d3ac20a6962.avif");
@@ -27,7 +27,6 @@ html, body {
     max-width: 100%;
     margin-top:250px;
     background: rgba(0, 0, 0, 0.55);
-    
 }
 
 .patch-img {
@@ -38,11 +37,40 @@ html, body {
 }
 
 .patch > p {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-family: "Norse-Bold";
     align-self: center;
     font-size: 11vh;
     max-width: 100%;
-
 }
+/*------------------------------ Left panel ends ------------------------------*/
+
+
+
+/* ------------------------------ Right-content ------------------------------*/
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255)
+}
+
+.text {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 10%;
+    display: flex;
+    /* border: solid; */
+    flex-direction: column;
+    width: 65%;
+    align-self: center;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+.text span {
+    font-style: italic;
+}
+
+
 
