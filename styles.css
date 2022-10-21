@@ -64,12 +64,52 @@ html, body {
     flex-direction: column;
     width: 65%;
     align-self: center;
-    margin-right: 20%;
+    margin-right: 25%;
     margin-top: 10%;
 }
 
 .text span {
     font-style: italic;
+}
+
+/* form {
+    padding: 5%;
+} */
+
+form h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+/* form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+} */
+
+.fields > div {
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.fields {
+    display: grid;
+    grid-template-columns: repeat(2, 30vh);
+    grid-template-rows: repeat(3, auto); 
+    grid-row-gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    padding: 5%;
+}
+
+input {
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgb(226, 226, 217);
+    width: 250px;
+    height: 25px;
 }
 
 
