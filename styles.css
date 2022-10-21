@@ -114,6 +114,12 @@ input {
     border-color: rgb(226, 226, 217);
     width: 320px;
     height: 30px;
+    outline-style: none;
+    box-shadow: none;
+}
+
+input:focus {
+    border-color: rgb(85, 107, 172);
 }
 
 label {
@@ -143,7 +149,6 @@ button {
 button:hover,
 button:focus {
   box-shadow: 0 0.5em 0.5em -0.4em;
-  transform: translateY(-0.25em);
 }
 
 .login-text {
@@ -161,6 +166,14 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.password-match {
+    border-color: green;
+}
+
+.password-not-match {
+    border-color: red;
 }
 
 
